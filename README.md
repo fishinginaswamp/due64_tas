@@ -3,11 +3,12 @@ Nintendo 64 controller made using a due board. Controller inputs are calculated 
 ## Notes
 
 **Only supports the Arduino Due**
+
 You can connect an 8x8 LED matrix to the Due's SPI0 (the 2x3 header on the middle of the board), which will advance the dot every frame
 
-See [here](https://github.com/fishinginaswamp/due_bounded_sprites-public#wiring) for how to wire the display via 8-bit parallel port on the Due
+The current buttons being pressed are displayed on an LCD. See [here](https://github.com/fishinginaswamp/due_bounded_sprites-public#wiring) for how to wire the display via 8-bit parallel port on the Due.
 
-Instructions can be (tediously) made with this tool [here](https://github.com/fishinginaswamp/due64_tas_instruction_maker)
+Instructions can be (tediously) made with this tool [here](https://github.com/fishinginaswamp/due64_tas_instruction_maker).
 
 It "receives" messages from the console but there's a bug which I never fixed so the Due cannot respond to anything other than a "poll button" command (SM64 and goldeneye work fine)
 
