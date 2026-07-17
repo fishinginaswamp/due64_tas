@@ -1,5 +1,7 @@
 Nintendo 64 controller made using a due board. Controller inputs are calculated by hand at compile time, which are "repeated" at runtime. Basically, the user programs what the MCU should do, and the MCU repeats it.
 
+Demo can be seen [here](https://www.reddit.com/r/arduino/s/eezDA9HoM1).
+
 ## Notes
 
 **Only supports the Arduino Due**
